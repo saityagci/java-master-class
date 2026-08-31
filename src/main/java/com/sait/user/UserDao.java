@@ -1,6 +1,6 @@
-package user;
+package com.sait.user;
 
-import com.sait.user.User;
+
 
 import java.util.UUID;
 
