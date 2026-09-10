@@ -3,8 +3,8 @@ package com.sait.user;
 import java.util.UUID;
 
 public class User {
-    private final UUID id;
-    private final String name;
+    private UUID id;
+    private String name;
 
     public User(UUID id, String name) {
         this.id = id;

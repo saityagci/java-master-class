@@ -9,14 +9,14 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class CarBooking {
-    private final UUID id;
-    private final User user;
-    private final Car car;
-    private final LocalDate startDate;
-    private final LocalDate endDate;
-    private final BigDecimal price;
-    private final BookingStatus status;
-    private final LocalDateTime bookedAt;
+    private UUID id;
+    private User user;
+    private Car car;
+    private LocalDate startDate;
+    private LocalDate endDate;
+    private BigDecimal price;
+    private BookingStatus status;
+    private LocalDateTime bookedAt;
 
     public CarBooking(UUID id, User user, Car car, LocalDate startDate, LocalDate endDate, BigDecimal price, BookingStatus status, LocalDateTime bookedAt) {
         this.id = id;
